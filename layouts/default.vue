@@ -7,7 +7,7 @@
 <style lang="scss">
 .d1 {
   background: transparentize($color: #000000, $amount: 0.9);
-  //padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 body {
