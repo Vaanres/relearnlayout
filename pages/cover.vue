@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="parent d1">
       <div class="cover d1">
-        <h1>How To Create A Book Cover</h1>
+        <h1>How to create a facebook cover</h1>
         <h4>With Flexbox & Love</h4>
         <p>By Vaanres</p>
       </div>
@@ -24,13 +24,16 @@
 }
 
 .cover {
-  min-height: 100vh;
+  > * {
+    margin: 1rem 0;
+  }
+
   > :first-child:not(h1) {
     margin-top: 0;
   }
 
   > :last-child:not(h1) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 </style>

@@ -2,6 +2,9 @@
   <div class="container">
     <ul class="mt-5">
       <li>
+        <h2><nuxt-link to="/cssisamazing">CSS is Amazing</nuxt-link></h2>
+      </li>
+      <li>
         <h2><nuxt-link to="/stack">Stack</nuxt-link></h2>
       </li>
       <li>
