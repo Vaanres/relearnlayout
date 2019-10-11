@@ -3,6 +3,16 @@
     <ul class="mt-5">
       <li>
         <h2>
+          <nuxt-link to="/pseudo">Pseudo</nuxt-link>
+        </h2>
+      </li>
+      <li>
+        <h2>
+          <nuxt-link to="/parallax">Parallax</nuxt-link>
+        </h2>
+      </li>
+      <li>
+        <h2>
           <nuxt-link to="/breakingout">Breaking Out</nuxt-link>
         </h2>
       </li>

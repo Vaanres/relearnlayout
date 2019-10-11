@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <article>
       <h1>Here's a Header</h1>
       <p>I'm a paragraph with all kinds of information.</p>
@@ -14,4 +14,10 @@
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+article {
+  p:nth-of-type(2n) {
+    color: indianred;
+  }
+}
+</style>
