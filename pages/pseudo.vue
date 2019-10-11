@@ -13,11 +13,22 @@
     </article>
   </div>
 </template>
-
+<script>
+export default {
+  mounted() {}
+}
+</script>
 <style lang="scss" scoped>
 article {
-  p:nth-of-type(2n) {
-    color: indianred;
+  h1:first-child::first-letter {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 1rem;
+    border: 5px solid red;
+
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
   }
 }
 </style>
